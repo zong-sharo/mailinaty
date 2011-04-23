@@ -1,0 +1,12 @@
+Name: mailinaty
+Version: 0.1
+Synopsis: generate new mailinator addresspairs easily
+License: BSD3
+Build-Type: Simple
+Cabal-Version: >= 1.2
+Stability: experimental
+
+Executable mailinaty
+    Hs-Source-Dirs: .
+    Build-Depends: base >= 4, random >= 1, tagsoup >= 0.12, HTTP >= 4000
+    Main-Is: Mailinaty.hs
